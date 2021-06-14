@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623679737124,
+  "lastUpdate": 1623679745406,
   "repoUrl": "https://github.com/ccdle12/tokio",
   "entries": {
     "rt_multi_threaded": [
@@ -47,6 +47,54 @@ window.BENCHMARK_DATA = {
             "name": "yield_many",
             "value": 21349133,
             "range": "± 2652960",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yotam.ofek@gmail.com",
+            "name": "Yotam Ofek",
+            "username": "yotamofek"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21de476ae7ce97d1ca502b82dad20f2ba3850769",
+          "message": "sync: export sync::notify::Notified future publicly (#3840)",
+          "timestamp": "2021-06-14T10:05:34+02:00",
+          "tree_id": "15a7467e98c3352a242485c6c2b09b084e286320",
+          "url": "https://github.com/ccdle12/tokio/commit/21de476ae7ce97d1ca502b82dad20f2ba3850769"
+        },
+        "date": 1623679744250,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "chained_spawn",
+            "value": 191372,
+            "range": "± 46007",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ping_pong",
+            "value": 681896,
+            "range": "± 112915",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "spawn_many",
+            "value": 5291103,
+            "range": "± 806372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "yield_many",
+            "value": 21260733,
+            "range": "± 5316047",
             "unit": "ns/iter"
           }
         ]
