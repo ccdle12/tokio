@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1623837134308,
+  "lastUpdate": 1623837137475,
   "repoUrl": "https://github.com/ccdle12/tokio",
   "entries": {
     "rt_multi_threaded": [
@@ -95,6 +95,54 @@ window.BENCHMARK_DATA = {
             "name": "yield_many",
             "value": 21260733,
             "range": "± 5316047",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alice@ryhl.io",
+            "name": "Alice Ryhl",
+            "username": "Darksonn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34c6a26c016c83fa82ff6a99fb9375cd326b95ed",
+          "message": "chore: prepare Tokio v1.7.0 (#3863)",
+          "timestamp": "2021-06-15T19:39:33+02:00",
+          "tree_id": "e8fc9a0a140b3bf36a18f96b61a10ccc8fd474c3",
+          "url": "https://github.com/ccdle12/tokio/commit/34c6a26c016c83fa82ff6a99fb9375cd326b95ed"
+        },
+        "date": 1623837135932,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "chained_spawn",
+            "value": 189232,
+            "range": "± 40617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ping_pong",
+            "value": 661154,
+            "range": "± 181123",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "spawn_many",
+            "value": 4719044,
+            "range": "± 1434034",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "yield_many",
+            "value": 19929744,
+            "range": "± 3679809",
             "unit": "ns/iter"
           }
         ]
